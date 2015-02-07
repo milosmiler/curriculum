@@ -1,0 +1,25 @@
+@font-face {
+  font-family:'raleway';
+  src: url('fontface/raleway-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fontface/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fontface/raleway-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fontface/raleway-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fontface/raleway-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fontface/raleway-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.container{max-width:1200px; height: auto; margin: 0 auto;}
+header h1{font-family: 'raleway';color: #FFF; font-weight: 700; padding: 0px 5px 0px 2px;}
+header h2{margin-left: 5px; }
+header{background:orange; padding: 20px 0px 20px 0px;}
+#logo img{border-radius: 50%; overflow: hidden; padding: 0px; margin: 0px; max-width: 114px; height: 114px; border: dashed 2px #fff; padding: 5px;}
+
+
+
+
+
+
+@media (max-width: 480px) {
+#logo img{margin: 0 auto; display: block;}
+header h2{ text-align: center;}
+	}
