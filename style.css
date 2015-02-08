@@ -9,11 +9,14 @@
 }
 
 .container{max-width:1200px; height: auto; margin: 0 auto;}
+header{background:#CC0000; padding: 20px 0px 20px 0px;}
 header h1{font-family: 'raleway';color: #FFF; font-weight: 700; padding: 0px 5px 0px 2px;}
 header h2{margin-left: 5px; }
-header{background:#CC0000; padding: 20px 0px 20px 0px;}
 #logo img{border-radius: 50%; overflow: hidden; padding: 0px; margin: 0px; max-width: 114px; height: 114px; border: dashed 2px #fff; padding: 5px;}
-
+.introduccion{background: #CFC8C4; padding: 10px;}
+footer{background:#CC0000;  padding: 20px 10px 20px 10px;}
+footer p{font-family: 'raleway'; color: #fff; }
+article p{font-family: 'helvetica'; line-height: 20px; text-align: justify;}
 
 
 
