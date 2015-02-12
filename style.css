@@ -81,27 +81,35 @@ img {height: auto; max-width: 100%; }
 
 .borde-izquierdo{border-left: 2px solid #CC0000; margin-top: 15px;}
 .container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden;}
-header{background:#CC0000; padding: 20px 0px 20px 0px;}
-header h1{font-family: 'raleway';color: #FFF; font-weight: 700; padding: 0px 5px 0px 2px;}
-header h2{margin-left: 5px; }
-#logo img{border-radius: 50%; overflow: hidden; padding: 0px; margin: 0px; max-width: 100%; height: auto; border: dashed 2px #fff; padding: 5px;}
-nav ul{display: block; list-style: none; width: 100%; height:30px;}
-nav ul li a{color:#CC0000; font-size: 16px; float: left;}
+header{background:#CC0000; padding: 20px 0px 20px 0px; max-width: 100%; margin-bottom:5px;}
+#logo img{border-radius: 50%; overflow: hidden;margin: 0px 5px 0px 20px; max-width: 38%; height: auto; border: dashed 2px #fff; padding: 5px; display: inline-block;}
+header h1{font-family: 'raleway';color: #FFF; font-weight: 700; padding: 0px 5px 0px 2px; margin-left: 5px;}
+header h2{margin-left: 31px;font-size: 20px; }
+
+nav ul{display: block; list-style: none; width: 100%; height:30px; margin-top: 10px;}
+nav ul li a{color:#CC0000; font-size: 16px; float: left; margin-left: 10px; padding: 4px; -webkit-transition: background 1s; transition: background 1s;}
+nav ul li a:hover{background:#CC0000;  color: #fff; padding: 4px;}
+
 .introduccion{background: #CFC8C4; padding: 10px;}
+.introduccion h2 {color:#CC0000; font-size: 19px;}
 .sobremi{padding: 10px;}
 .curriculum{padding: 10px;}
 .contacto{padding: 10px; margin-bottom: 5px;}
 footer{background:#CC0000;  padding: 20px 10px 20px 10px;}
 footer p{font-family: 'raleway'; color: #fff; text-align: center;}
 article p{font-family: 'helvetica'; line-height: 20px; text-align: justify;}
-
+article h2{color:#CC0000;}
+.curriculum{ max-width: 500px; height: auto;}
+.curriculum .base{width: 100%;  overflow: hidden; height: 22px; margin-bottom: 22px; border: 1px solid #CC0000; border-radius: 4px; background-clip: padding-box; padding: 2px;}
+ .curriculum .base .barra{ height: 16px; background-color: #CC0000; color: #fff; padding-left: 10px;}
+.rounded { border-radius: 4px; background-clip: padding-box;
 /*****************+** dispositivos moviles ******************/
 
 @media screen and (max-width: 480px) {
 #logo img{margin: 0 auto; display: block;}
 header h1{text-align: center; margin-bottom:0px; }
 header h2{ text-align: center;}
-nav ul li a{margin-right: 10px;}
+nav ul li a{margin-right: 10px!important;}
 
 }
 /*****************+** dispositivos tablets ******************/
