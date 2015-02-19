@@ -78,6 +78,18 @@ img {height: auto; max-width: 100%; }
        url('fontface/raleway-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('fontface/raleway-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
+@font-face {
+    font-family: 'socicon';
+    src: url('font/socicon-webfont.eot');
+    src: url('font/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/socicon-webfont.woff') format('woff'),
+         url('font/socicon-webfont.woff2') format('woff2'),
+         url('font/socicon-webfont.ttf') format('truetype'),
+         url('font/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
 
 .borde-izquierdo{border-left: 2px solid #CC0000; margin-top: 15px;}
 .container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden; background: #F9F9F9;}
@@ -115,6 +127,8 @@ article h2{color:#CC0000;}
  .curriculum .base .barra{ height: 16px; background-color: #CC0000; color: #fff; padding-left: 10px;}
  .tecnologias img {max-width: 100%; height: auto; overflow: hidden; position: absolute; top: 70px; left: 600px; }
 .rounded { border-radius: 4px; background-clip: padding-box;}
+.social {font-family: 'socicon'; font-size: 45px; color:#CC0000; text-align: center; margin-top: 5px;}
+.social a{color: #CC0000;}
 /*****************+** dispositivos moviles ******************/
 
 @media screen and (max-width: 480px) {
