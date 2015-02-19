@@ -129,6 +129,27 @@ article h2{color:#CC0000;}
 .rounded { border-radius: 4px; background-clip: padding-box;}
 .social {font-family: 'socicon'; font-size: 45px; color:#CC0000; text-align: center; margin-top: 5px;}
 .social a{color: #CC0000;}
+ .to-top{
+         cursor: pointer;
+         position: absolute;
+         top: 10px;
+         right: 650px;
+         z-index: 999999;
+         background-color: #AED3FF;
+         color: #0E3E92;
+         padding: 0.5em 1.2em;
+         font-size: 1em;
+         -webkit-transition:all 0.2s linear;
+         -moz-transition: all 0.2s linear;
+         -o-transition:all 0.2s linear;
+         transition: all 0.2s linear;
+         opacity: 0;
+      }
+
+      body.scrolled . to-top{
+         opacity: 1;
+         cursor: pointer;
+      }
 /*****************+** dispositivos moviles ******************/
 
 @media screen and (max-width: 480px) {
