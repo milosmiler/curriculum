@@ -80,7 +80,7 @@ img {height: auto; max-width: 100%; }
 }
 
 .borde-izquierdo{border-left: 2px solid #CC0000; margin-top: 15px;}
-.container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden;}
+.container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden; background: #F9F9F9;}
 
 header{background:#CC0000; padding: 20px 0px 20px 0px; max-width: 100%; margin-bottom:5px;}
 #logo img{border-radius: 50%; overflow: hidden;max-width: 38%; height: auto; border: dashed 2px #fff; padding: 5px; margin: 0 auto; display: block;}
@@ -100,10 +100,11 @@ section{width: 100%; height:auto;}
 .sobremi ul li{font-size: 2.5rem; color: #CCCCCC; display: inline-block; margin-right: 25px; font-family: 'raleway';}
 
 .curriculum{padding: 10px;}
-.contacto{padding: 10px; margin-bottom: 15px; height: 400px;}
+.contacto{padding: 10px; margin-bottom: 15px; height: 300px;}
 .contacto h2{ font-size: 20px; text-align: center; font-family: 'raleway';}
-.contacto .box-contacto{ width: 400px; height: 200px; overflow: hidden; position: relative; border: 1px solid #CC0000; display: block; float: left; padding: 5px;}
-.contacto .box-redes-sociales{ width: 300px; height: 300px; overflow: hidden; position: relative; border: 1px solid #CC0000; display: block; float: right;}
+.contacto .box-contacto{ width: 80%; height: 200px; overflow: hidden; position: relative; border: 1px solid #CC0000; display: block; padding: 5px; margin:  0 auto;}
+.contacto .box-contacto p{ text-align: center; margin: 0;}
+
 
 footer{background:#CC0000;  padding: 20px 10px 20px 10px;}
 footer p{font-family: 'raleway'; color: #fff; text-align: center;}
