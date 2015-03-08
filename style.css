@@ -90,13 +90,18 @@ img {height: auto; max-width: 100%; }
     font-style: normal;
     text-transform: initial;
 }
-
+body{background: #727272;}
 .borde-izquierdo{border-left: 2px solid #CC0000; margin-top: 15px;}
-.container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden; background: #F9F9F9;}
+.borde-divide{-webkit-box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);
+-moz-box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);
+box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);}
+.container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden;background: #fff;}
 
-header{background:#CC0000; padding: 20px 0px 20px 0px; max-width: 100%; margin-bottom:5px;}
+header{background:#CC0000; padding: 0px 0px 20px 0px; max-width: 100%; margin-bottom:5px;}
+header .banda-red{ width: 100%; height:30px; background: #CF2F2F; margin-bottom: 10px;}
+
 header h1{font-family: 'raleway';color: #FFF; font-weight: 700; text-align: center;margin-top: 1px;}
-header h2{font-size: 20px; text-align: center; margin-top: 3px;}
+header h2{font-size: 20px; text-align: center; margin-top: 3px; color: #212121;}
 #logo img{border-radius: 50%; overflow: hidden;max-width: 38%; height: auto; border: dashed 2px #fff; padding: 5px; margin: 0 auto; display: block;}
 
 
@@ -109,16 +114,18 @@ section{width: 100%; height:auto;}
 .section-curriculum{width: 100%; height:auto; height: auto; overflow: hidden; position: relative;}
 
 
-.introduccion{background: #CFC8C4; padding: 10px;}
-.introduccion h2 {color:#CC0000; font-size: 19px;}
+.introduccion{ padding: 10px;}
+.introduccion h2 {color:#212121; font-size: 22px;}
 .sobremi{padding: 10px;}
 .sobremi ul li{font-size: 2.5rem; color: #CCCCCC; display: inline-block; margin-right: 25px; font-family: 'raleway';}
-
+.sobremi h2{color: #212121;font-size: 22px;}
 .curriculum{padding: 10px; float: left;}
+.curriculum h2{color: #212121;font-size: 22px;}
 .contacto{padding: 10px; margin-bottom: 15px; height: 300px;}
-.contacto h2{ font-size: 20px; text-align: center; font-family: 'raleway';}
+.contacto h2{ font-size: 20px; text-align: center; font-family: 'raleway'; color: #212121;font-size: 22px;}
 .contacto .box-contacto{ width: 80%; height: 200px; overflow: hidden; position: relative; border: 1px solid #CC0000; display: block; padding: 5px; margin:  0 auto;}
 .contacto .box-contacto p{ text-align: center; margin: 0;}
+p{color: #727272;}
 
 
 footer{background:#CC0000;  padding: 20px 10px 20px 10px;}
