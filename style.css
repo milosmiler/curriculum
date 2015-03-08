@@ -90,7 +90,7 @@ img {height: auto; max-width: 100%; }
     font-style: normal;
     text-transform: initial;
 }
-body{background: #727272;}
+body{background: linear-gradient(#3d3e41, #2e2f31, #3d3e41);}
 .borde-izquierdo{border-left: 2px solid #CC0000; margin-top: 15px;}
 .borde-divide{-webkit-box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);
 -moz-box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);
@@ -98,7 +98,7 @@ box-shadow: 0px 1px 10px 1px rgba(182,182,182,1);}
 .container{max-width:1200px; height: auto; margin: 0 auto; overflow: hidden;background: #fff;}
 
 header{background:#CC0000; padding: 0px 0px 20px 0px; max-width: 100%; margin-bottom:5px;}
-header .banda-red{ width: 100%; height:30px; background: #CF2F2F; margin-bottom: 10px;}
+header .banda-red{ width: 100%; height:30px; background: #b70303; margin-bottom: 10px;}
 
 header h1{font-family: 'raleway';color: #FFF; font-weight: 700; text-align: center;margin-top: 1px;}
 header h2{font-size: 20px; text-align: center; margin-top: 3px; color: #212121;}
