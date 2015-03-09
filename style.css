@@ -140,6 +140,8 @@ article h2{color:#CC0000;}
 .rounded { border-radius: 4px; background-clip: padding-box;}
 .social {font-family: 'socicon'; font-size: 45px; color:#CC0000; text-align: center; margin-top: 5px;}
 .social a{color: #CC0000;}
+.curriculum-general h2{color: #212121;font-size: 22px;}
+.curriculum-general{padding: 10px;}
 
 
 /*****************+** dispositivos moviles ******************/
