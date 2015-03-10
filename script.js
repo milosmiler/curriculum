@@ -25,6 +25,16 @@
  });
 
 
+$(document).ready(function() {
+	$("a").on("click",function(){
+   if(this.hash){
+      //console.log($(this).attr('href'));
+      $("html body").animate({"scrollTop":$($(this).attr('href')).offset().top-82},1500);
+      return false;
+         }
+	});
+});
+
 
 
 
