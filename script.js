@@ -36,6 +36,13 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+  $( ".menu" ).click(function() {
+    $( ".submenu" ).toggle("slow");
+  });
+});
+
+
 
 
 
